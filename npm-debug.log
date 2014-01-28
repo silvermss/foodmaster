@@ -1,0 +1,180 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 warn package.json app.js@0.0.1 No repository field.
+5 warn package.json app.js@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/matthewsilver/Desktop/startup week stuff/scratch',
+7 verbose install   [ 'express', 'mongoose', 'passport', 'passport-local' ] ]
+8 info preinstall app.js@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'passport@0.x', null ]
+11 verbose cache add name=undefined spec="passport@0.x" args=["passport@0.x",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'passport@0.x',
+12 verbose parsed url   path: 'passport@0.x',
+12 verbose parsed url   href: 'passport@0.x' }
+13 verbose cache add name="passport" spec="0.x" args=["passport","0.x"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '0.x',
+14 verbose parsed url   path: '0.x',
+14 verbose parsed url   href: '0.x' }
+15 verbose addNamed [ 'passport', '0.x' ]
+16 verbose addNamed [ null, '>=0.0.0-0 <1.0.0-0' ]
+17 verbose cache add [ 'passport-local@1.x', null ]
+18 verbose cache add name=undefined spec="passport-local@1.x" args=["passport-local@1.x",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'passport-local@1.x',
+19 verbose parsed url   path: 'passport-local@1.x',
+19 verbose parsed url   href: 'passport-local@1.x' }
+20 verbose cache add name="passport-local" spec="1.x" args=["passport-local","1.x"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '1.x',
+21 verbose parsed url   path: '1.x',
+21 verbose parsed url   href: '1.x' }
+22 verbose addNamed [ 'passport-local', '1.x' ]
+23 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+24 silly lockFile 3e68292c-passport-0-x passport@0.x
+25 verbose lock passport@0.x /Users/matthewsilver/.npm/3e68292c-passport-0-x.lock
+26 silly lockFile d4436ba5-passport-local-1-x passport-local@1.x
+27 verbose lock passport-local@1.x /Users/matthewsilver/.npm/d4436ba5-passport-local-1-x.lock
+28 verbose already installed skipping express@3.x /Users/matthewsilver/Desktop/startup week stuff/scratch
+29 verbose cache add [ 'mongoose@3.x', null ]
+30 verbose cache add name=undefined spec="mongoose@3.x" args=["mongoose@3.x",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'mongoose@3.x',
+31 verbose parsed url   path: 'mongoose@3.x',
+31 verbose parsed url   href: 'mongoose@3.x' }
+32 verbose cache add name="mongoose" spec="3.x" args=["mongoose","3.x"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '3.x',
+33 verbose parsed url   path: '3.x',
+33 verbose parsed url   href: '3.x' }
+34 verbose addNamed [ 'mongoose', '3.x' ]
+35 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+36 silly lockFile aa88cc95-mongoose-3-x mongoose@3.x
+37 verbose lock mongoose@3.x /Users/matthewsilver/.npm/aa88cc95-mongoose-3-x.lock
+38 silly addNameRange { name: 'passport', range: '>=0.0.0-0 <1.0.0-0', hasData: false }
+39 silly addNameRange { name: 'passport-local',
+39 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+39 silly addNameRange   hasData: false }
+40 silly addNameRange { name: 'mongoose', range: '>=3.0.0-0 <4.0.0-0', hasData: false }
+41 verbose url raw passport
+42 verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+43 verbose url resolved https://registry.npmjs.org/passport
+44 info trying registry request attempt 1 at 15:20:02
+45 http GET https://registry.npmjs.org/passport
+46 verbose url raw passport-local
+47 verbose url resolving [ 'https://registry.npmjs.org/', './passport-local' ]
+48 verbose url resolved https://registry.npmjs.org/passport-local
+49 info trying registry request attempt 1 at 15:20:03
+50 http GET https://registry.npmjs.org/passport-local
+51 verbose url raw mongoose
+52 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+53 verbose url resolved https://registry.npmjs.org/mongoose
+54 info trying registry request attempt 1 at 15:20:03
+55 http GET https://registry.npmjs.org/mongoose
+56 http 200 https://registry.npmjs.org/passport-local
+57 silly registry.get cb [ 200,
+57 silly registry.get   { date: 'Mon, 27 Jan 2014 20:20:04 GMT',
+57 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+57 silly registry.get     etag: '"13EMSKO1941AGHXSMHOWFKEMZ"',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     'content-length': '10099',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     age: '86589',
+57 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+57 silly registry.get     'x-cache': 'HIT',
+57 silly registry.get     'x-cache-hits': '22',
+57 silly registry.get     'x-timer': 'S1390854004.857730150,VS0,VE0',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 http 200 https://registry.npmjs.org/passport
+59 silly registry.get cb [ 200,
+59 silly registry.get   { date: 'Mon, 27 Jan 2014 20:20:04 GMT',
+59 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+59 silly registry.get     etag: '"1AOHP86QH01VWA7YBEGCFTW3P"',
+59 silly registry.get     'content-type': 'application/json',
+59 silly registry.get     'content-length': '32971',
+59 silly registry.get     'accept-ranges': 'bytes',
+59 silly registry.get     via: '1.1 varnish',
+59 silly registry.get     age: '38578',
+59 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+59 silly registry.get     'x-cache': 'HIT',
+59 silly registry.get     'x-cache-hits': '28',
+59 silly registry.get     'x-timer': 'S1390854004.856565714,VS0,VE0',
+59 silly registry.get     vary: 'Accept',
+59 silly registry.get     'keep-alive': 'timeout=10, max=50',
+59 silly registry.get     connection: 'Keep-Alive' } ]
+60 silly addNameRange number 2 { name: 'passport-local',
+60 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+60 silly addNameRange   hasData: true }
+61 silly addNameRange versions [ 'passport-local',
+61 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5', '0.1.6' ] ]
+62 silly lockFile d4436ba5-passport-local-1-x passport-local@1.x
+63 silly lockFile d4436ba5-passport-local-1-x passport-local@1.x
+64 error notarget No compatible version found: passport-local@'>=1.0.0-0 <2.0.0-0'
+64 error notarget Valid install targets:
+64 error notarget ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6"]
+64 error notarget
+64 error notarget This is most likely not a problem with npm itself.
+64 error notarget In most cases you or one of your dependencies are requesting
+64 error notarget a package version that doesn't exist.
+65 error System Darwin 12.5.0
+66 error command "node" "/usr/local/bin/npm" "install"
+67 error cwd /Users/matthewsilver/Desktop/startup week stuff/scratch
+68 error node -v v0.10.25
+69 error npm -v 1.3.24
+70 error code ETARGET
+71 verbose exit [ 1, true ]
